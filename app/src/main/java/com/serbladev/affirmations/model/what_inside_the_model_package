@@ -1,0 +1,19 @@
+**** ENGLISH ********************
+
+ Developers often use MODEL as the package name for classes that model (or represent) the data.
+
+ This new package will contain any data-related classes defined in your app.
+
+ In this app, the MODEL package has the data classes who represents on instance of Affirmation.
+
+
+
+
+
+ **** SPANISH *******************
+
+Los desarrolladores a menudo usan MODELO como el nombre del paquete para las clases que modelan (o representan) los datos.
+
+Este nuevo paquete contendrá todas las clases relacionadas con datos definidas en su aplicación.
+
+En esta aplicación, el paquete MODEL tiene las clases de datos que representan en caso de Afirmación.

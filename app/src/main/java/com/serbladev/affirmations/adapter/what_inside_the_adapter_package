@@ -1,0 +1,36 @@
+**** ENGLISH ********************
+
+Adapter is a design pattern that adapts the data into something that can be used by RecyclerView.
+In this case, you need an adapter that takes an Affirmation instance from the list returned by loadAffirmations(), and turns it into a list item view, so that it can be displayed in the RecyclerView.
+
+When you run the app, RecyclerView uses the adapter to figure out how to display your data on screen.
+RecyclerView asks the adapter to create a new list item view for the first data item in your list.
+Once it has the view, it asks the adapter to provide the data to draw the item.
+This process repeats until the RecyclerView doesn't need any more views to fill the screen.
+If only 3 list item views fit on the screen at once, the RecyclerView only asks the adapter to prepare those 3 list item views (instead of all 10 list item views).
+
+To implement the adapter:
+
+    1. Create a new class for the adapter, for example, ItemAdapter.
+    2. Create a custom ViewHolder class that represents a single list item view. Extend from RecyclerView.ViewHolder class.
+    3. Modify the ItemAdapter class to extend from the RecyclerView.Adapter class with the custom ViewHolder class.
+    4. Implement these methods within the adapter: getItemsCount(), onCreateViewHolder(), and onBindViewHolder().
+
+
+**** SPANISH *******************
+
+El adaptador es un patrón de diseño que adapta los datos a algo que RecyclerView puede usar.
+En este caso, necesita un adaptador que tome una instancia de Affirmation de la lista devuelta por loadAffirmations () y la convierta en una vista de tipo listview, para que pueda mostrarse en el RecyclerView.
+
+Cuando ejecuta la aplicación, RecyclerView usa el adaptador para descubrir cómo mostrar sus datos en la pantalla.
+RecyclerView le pide al adaptador que cree una nueva vista del Item de la lista para el primer elemento de datos de su lista.
+Una vez que tiene la vista, le pide al adaptador que proporcione los datos para dibujar el elemento.
+Este proceso se repite hasta que el RecyclerView no necesita más vistas para llenar la pantalla.
+Si solo caben en la pantalla 3 vistas de item a la vez, el RecyclerView solo le pide al adaptador que prepare esas 3 vistas de item (en lugar de las 10 vistas de items que realmente posee la lista).
+
+Para implementar el adaptador:
+
+    1. Cree una nueva clase para el adaptador, por ejemplo, ItemAdapter.
+    2. Cree una clase ViewHolder personalizada que represente una vista de un solo elemento de lista. Amplíe desde la clase RecyclerView.ViewHolder.
+    3. Modifique la clase ItemAdapter para extender desde la clase RecyclerView.Adapter con la clase ViewHolder personalizada.
+    4. Implemente estos métodos dentro del adaptador: getItemsCount (), onCreateViewHolder () y onBindViewHolder ().

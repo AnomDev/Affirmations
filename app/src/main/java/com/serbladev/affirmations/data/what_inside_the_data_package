@@ -1,0 +1,20 @@
+**** ENGLISH ********************
+
+Data displayed in your app may come from different sources (e.g. within your app project or from an external source that requires connecting to the internet to download data).
+As a result, data may not be in the exact format that you need.
+The rest of the app should not concern itself with where the data originates from or in what format it is originally.
+You can and should hide away this data preparation in a separate Datasource class that prepares the data for the app.
+
+Since preparing data is a separate concern, we put the Datasource class in a separate data package (the Data package).
+
+
+
+
+
+**** SPANISH *******************
+Los datos que se muestran en su aplicación pueden provenir de diferentes fuentes (por ejemplo, dentro del proyecto de su aplicación o de una fuente externa que requiere conectarse a Internet para descargar datos).
+Como resultado, es posible que los datos no estén en el formato exacto que necesita.
+El resto de la aplicación no debe preocuparse de dónde se originan los datos o en qué formato están originalmente.
+Puede y debe ocultar esta preparación de datos en una clase de Datasource separada que prepara los datos para la aplicación.
+
+Dado que la preparación de datos es una preocupación separada, colocamos la clase de Datasource en un paquete de datos separado (el paquete Data).
